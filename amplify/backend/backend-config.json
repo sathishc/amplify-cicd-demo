@@ -33,10 +33,29 @@
           ]
         }
       ]
+    },
+    "apife4facf4": {
+      "service": "API Gateway",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [
+        {
+          "category": "function",
+          "resourceName": "amplifycicddemoa31f5ab8",
+          "attributes": [
+            "Name",
+            "Arn"
+          ]
+        }
+      ]
     }
   },
   "function": {
     "amplifycicddemo26bad97d": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "amplifycicddemoa31f5ab8": {
       "build": true,
       "providerPlugin": "awscloudformation",
       "service": "Lambda"

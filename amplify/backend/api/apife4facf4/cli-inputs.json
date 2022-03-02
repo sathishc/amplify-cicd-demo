@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/appolo": {
+      "name": "/appolo",
+      "lambdaFunction": "amplifycicddemoa31f5ab8",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}
