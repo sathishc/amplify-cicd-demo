@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/todos": {
+      "name": "/todos",
+      "lambdaFunction": "amplifycicddemo26bad97d",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}
